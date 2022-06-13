@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>notifications</title>
+  <link rel="stylesheet" href="./style-notifications.css">
+
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css'>
+<link rel='stylesheet' href='https://themify.me/wp-content/themes/themify-v32/themify-icons/themify-icons.css'>
+<link rel="stylesheet" href="./style_footer.css">
+
+</head>
+<body>
+
+<nav>
+
+  <div class="search">
+    <image src="search-icon.png" class="img1"></image>
+    <input type="text" placeholder="Search Here" class="search-here"></input>
+  </div>
+
+  <ul>
+    <li><a href="profile.html"><image src="profile-picture.jpg" class="img2"></image></a></li>
+    <li class="name-of-user">Angelic Mokoena</li>
+    <li><a href="notifications.html"><image src="bell-icon-blue.png" class="img3-1"></a></li>
+    <li><a href="homepage.html"><image src="log-out-2.png" class="img3"></a></li>
+  </ul>
+</nav>
+
+<span>hello</span>
+<div class="head">ACE TECH USER NOTIFICATIONS</div>
+
+<div class="note1">
+  <img src="joburg-water.jpg" class="note-pic"></img>
+  <p class="news">Water is running low in the resevoir, please save water. Do not leave the tap running, 
+    report any leakages and take 5 minute showers :). Save water, save the earth and ensure a future for 
+    the next generations.
+  </p>
+  <div class="myBtn">
+    <button onClick="dismissNote()" class="dismisss">
+      <img src="dismiss.png" class="btn-icon"></img>
+    </button>
+    <button onclick="markAsRead()" class="readd">
+      <img src="read.png" class="btn-icon"></img>
+    </button>
+  </div>
+</div>
+
+<div class="note2">
+  <img src="joburg-municipality.jpg" class="note-pic"></img>
+  <p class="news"> Water pressure for the next 4 days in the city of joburg will be low as there is some maintenance taking place
+    in the CBD, Newtown and Bronkhorspruit and Auckland park. Burst water pipes.
+  </p>
+  <div class="myBtn1">
+    <button onClick="dismissNote()" class="dismisss">
+      <img src="dismiss.png" class="btn-icon"></img>
+    </button>
+    <button onclick="markAsRead()" class="readd">
+      <img src="read.png" class="btn-icon"></img></button>
+    </div>
+</div>
+
+<div class="note3">
+  <img src="health-department.jpg" class="note-pic"></img>
+  <p class="news">The water in Johannesburg from the taps is the healthiest and cleaest in the country. It is safe
+    to consume. Spirit lead me where my trust is without borders, let me walk upon the waters where ever you would
+  call me.</p>
+  <div class="myBtn"><button onClick="dismissNote()" class="dismisss"><img src="dismiss.png" class="btn-icon"></img></button>
+    <button onclick="markAsRead()" class="readd"><img src="read.png" class="btn-icon"></img></button></div>
+</div>
+
+<div class="note4">
+  <img src="water-department.png" class="note-pic"></img>
+  <p class="news"> Do not drink water from rivers and dams without purifying the water first. Purififcation ways include
+    adding a drop of bleach and letting the water sit for 3 days, boiling the water etc...</p>
+  
+  <div class="myBtn1"><button onClick="dismissNote()" class="dismisss"><img src="dismiss.png" class="btn-icon"></img></button>
+  <button onclick="markAsRead()" class="readd"><img src="read.png" class="btn-icon"></img></button></div>
+</div>
+
+<!--footer-->
+
+<footer class="new_footer_area bg_color">
+  <div class="new_footer_top">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-3 col-md-6">
+                  <div class="f_widget company_widget wow fadeInLeft" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInLeft;">
+                      <h3 class="f-title f_600 t_color f_size_18">Get in Touch</h3>
+                      <p>Raise concerns and don't miss any updates!</p>
+                      <form action="#" class="f_subscribe_two mailchimp" method="post" novalidate="true" _lpchecked="1">
+                          <input type="text" name="EMAIL" class="form-control memail" placeholder="Email">
+                          <button class="btn btn_get btn_get_two" type="submit">Subscribe</button>
+                          <p class="mchimp-errmessage" style="display: none;"></p>
+                          <p class="mchimp-sucmessage" style="display: none;"></p>
+                      </form>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                  <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInLeft;">
+                      <h3 class="f-title f_600 t_color f_size_18">Download</h3>
+                      <ul class="list-unstyled f_list">
+                          <li><a href="#">Company</a></li>
+                          <li><a href="#">Android App</a></li>
+                          <li><a href="#">IOS App</a></li>
+                          <li><a href="#">Organisation stats</a></li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                  <div class="f_widget about-widget pl_70 wow fadeInLeft" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInLeft;">
+                      <h3 class="f-title f_600 t_color f_size_18">Help</h3>
+                      <ul class="list-unstyled f_list">
+                          <li><a href="#">FAQ</a></li>
+                          <li><a href="#">Term &amp; conditions</a></li>
+                          <li><a href="#">Privacy Policy</a></li>
+                          <li><a href="#">POPIA</a></li>
+                          
+                      </ul>
+                  </div>
+              </div>
+              <div class="col-lg-3 col-md-6">
+                  <div class="f_widget social-widget pl_70 wow fadeInLeft" data-wow-delay="0.8s" style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInLeft;">
+                      <h3 class="f-title f_600 t_color f_size_18">Engage with us </h3>
+                      <div class="f_social_icon">
+                          <a href="#" class="fab fa-facebook"></a>
+                          <a href="#" class="fab fa-twitter"></a>
+                          <a href="#" class="fab fa-linkedin"></a>
+                          <a href="#" class="fab fa-instagram"></a>
+  
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="footer_bg">
+          <div class="footer_bg_one"></div>
+          <div class="footer_bg_two"></div>
+      </div>
+  </div>
+  <div class="footer_bottom">
+      <div class="container">
+          <div class="row align-items-center">
+              <div class="col-lg-6 col-sm-7">
+                  <p class="mb-0 f_400">Ace-Tech  2022 All rights reserved.</p>
+              </div>
+              
+          </div>
+      </div>
+  </div>
+</footer>
+<!-- partial -->
+
+<script>
+
+  function dismissNote(){
+    document.querySelector('.note1').style.backgroundColor = 'red';
+    //document.querySelector('.note2').style.backgroundColor = 'red';
+    //document.querySelector('.note3').style.backgroundColor = 'red';
+    //document.querySelector('.note4').style.backgroundColor = 'red';
+  }
+
+  function markAsRead(){
+    document.querySelector('.note1').style.backgroundColor = 'blue';
+    //{
+    //document.querySelector('.note2').style.backgroundColor = 'blue';}
+    //document.querySelector('.note3').style.backgroundColor = 'blue';
+    //document.querySelector('.note4').style.backgroundColor = 'blue';
+  
+  }
+</script>
+
+</body>
+ </html>
