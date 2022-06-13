@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>profile</title>
+  <link rel="stylesheet" href="./style-profile.css">
+
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css'>
+<link rel='stylesheet' href='https://themify.me/wp-content/themes/themify-v32/themify-icons/themify-icons.css'>
+<link rel="stylesheet" href="./style_footer.css">
+
+</head>
+<body>
+
+<nav>
+
+  <div class="search">
+    <image src="search-icon.png" class="img1"></image>
+    <input type="text" placeholder="Search Here" class="search-here"></input>
+  </div>
+
+  <ul>
+    <li> <image src="profile-picture.jpg" class="img2"></image></li>
+    <li class="name-of-user">Angelic Mokoena</li>
+    <li><a href="notifications.html"><image src="bell-icon.png" class="img3-1"></a></li>
+    <li><a href="homepage.html"><image src="log-out-2.png" class="img3"></a></li>
+  </ul>
+</nav>
+
+<span>hello</span>
+<div class="head">ANGELIC MOKOENA</div>
+
+<div class="mainProfilePic">
+  <image src="profile-picture.jpg" class="pp"></image>
+</div>
+
+  <div class="profileInfo">
+    <ul>
+      <p><i>Lives in Johannesburg, Auckland Park</i></p>
+      <p><i><b>Contact Numbers:</b> 065 671 8717</i></p>
+      <p><i><b>Age:</b> 21 years old</i></p>
+    </ul>
+  </div>
+
+  <button onClick="popUpForm()" class="greenBtn" id="buttonza"> Update Profile</button>
+
+  
+  <div class="popUpFormm">
+  <div class="popUp">
+    <h1>Profile Update</h1>
+    </ul><p>Name: <input type="text"/>
+    Surname: <input type="text"/>
+    Address: <input type="text"/>
+    Cell number: <input type="text"/>
+    Age: <input type="text"/>
+  </ul>
+  <button class="greenBtn"> Update Profile</button>
+
+</div>
+  </div>
+
+  <div class="dontUnderstand">
+      <a href="#"><img src="insta.png" class="hey"/></a>
+      <a href="#"><img src="twitter.png" class="hey"/></a>
+      <a href="#"><img src="facebook.png" class="hey"/></a>
+      <a href="#"><img src="money_bills.jpg" class="hey"/></a>
+  </div>
+
+<div class="head1">Recent Bill Updates</div>
+
+<div class="updates">
+<div class="update">
+  <p>Water Plumbing Services</p>
+  <img src="icon-magic-gold.png" class="updatePic"/>
+  <button class="btnP-1">Complete</button>
+</div>
+<div class="update">
+  <p>Meter Leakage Alert</p>
+  <img src="emergency.jpg" class="updatePic"/>
+  <button class="btnP-2">Pending</button>
+</div>
+<div class="update">
+  <p>Subscription Costs</p>
+  <img src="credit.jpg" class="updatePic"/>
+  <button class="btnP-3">Incomplete</button>
+</div>
+</div>
+
+  
+
+
+<script>
+  function popUpForm(){
+    document.querySelector('.popUp').style.display="flex";
+  }
+</script>
+
+</body>
+ </html>
